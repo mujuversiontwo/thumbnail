@@ -100,14 +100,14 @@ async def start_me(bot, update):
             [
                 [
                         InlineKeyboardButton("🤔Help", callback_data = "ghelp"),
-                        InlineKeyboardButton('Other Bots🤖', url='https://t.me/Mo_Tech_YT/141')
+                        InlineKeyboardButton('For Movies', url='https://t.me/worldmoviesaj')
                 ],
                 [
-                    InlineKeyboardButton('🗣️ Any Doubt', url='https://t.me/Mo_Tech_Group'),
-                    InlineKeyboardButton('Bot Updates 🤖', url='https://t.me/Mo_Tech_YT')
+                    InlineKeyboardButton('🗣️ Any Doubt', url='https://t.me/worldmoviesaj'),
+                    InlineKeyboardButton('Bot Updates 🤖', url='https://t.me/AJmovieLINKS')
                 ],
                 [
-                    InlineKeyboardButton('🖥️ Tutorial Video 🖥️', url='https://youtu.be/wCB2zbwEguA')
+                    InlineKeyboardButton('🖥️ Tutorial CHANNEL 🖥️', url='https://t.me/worldmoviesaj')
                 ]
             ]
         ),
@@ -115,7 +115,7 @@ async def start_me(bot, update):
     )
             return 
 
-@Mai_bOTs.on_callback_query()
+@worldmoviesaj.on_callback_query()
 async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
     data = query.data
     if data == "rnme":
@@ -181,8 +181,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('👨‍🎓Credits', url="https://t.me/Mai_bOTs"),
-                    InlineKeyboardButton('Editing 👨‍💻', url="https://t.me/Mo_Tech_Group")
+                    InlineKeyboardButton('👨‍🎓Credits', url="https://t.me/worldmoviesaj"),
+                    InlineKeyboardButton('Editing 👨‍💻', url="https://t.me/worldmoviesaj")
                 ],
                 [
                     InlineKeyboardButton('🔙 Back', callback_data = "ghelp"),
